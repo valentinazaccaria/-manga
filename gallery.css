@@ -1,0 +1,13 @@
+html{margin:0;padding:0}
+body{font: 12px arial,sans-serif;margin:0;padding: 0 5px}
+img{border:0}
+div#container{width:740px;
+background-color: red;}
+div#header img{float:left}
+div#header h2{float:left;margin:24px 0 0 0;font-size:100%}
+div#zoom{float:right;margin:0 0 5px 0;padding: 5px;border:1px solid #ccc; background-color: red;}
+div#zoom h3{margin:0;font-size:100%;color: #666;text-align:center}
+div#zoom img{display:block;width:400px;height:400px}
+div#minipics{margin-right:415px}
+div#minipics ul{list-style-type: none;margin: 0;padding: 0}
+div#minipics li{float:left;margin:0 5px 5px 5px;border:1px solid #ccc;padding: 3px}

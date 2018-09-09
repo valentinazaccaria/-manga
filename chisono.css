@@ -1,0 +1,80 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #F0F8FA;
+  margin: 0%;
+}
+
+#barra {
+  position: fixed;
+  background-image: url(mare.jpg);
+  width: 100vw;
+  height: 20vh;
+  left: 0%;
+  top: 0%;
+}
+
+.vz {
+  font-family: 'Black Ops One', cursive;
+  color: white;
+  position: fixed;
+  font-size: 15vh;
+  margin-left: 7vh;
+  margin-top: 2vh;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #E8F6F9;
+}
+
+#testo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -6%);
+  width: 80vw;
+  height: 50vh;
+
+}
+
+.chisono {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  position: absolute;
+  font-weight: lighter;
+  font-size: 4vh;
+  top: 7vh;
+  left: 17vw;
+}
+
+.foto {
+  background-image: url(io.jpg);
+  background-size:cover;
+  float: left;
+  margin-left: 3%;
+  margin-top: -11%;
+  width: 25vw;
+  height: 60vh;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.text {
+  font-family: 'Open Sans', cursive;
+  color: black;
+  font-size: 4vh;
+  padding-left: 30vw;
+  padding-right: 3vw;
+  margin-top: -3%;
+}

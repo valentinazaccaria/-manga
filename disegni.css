@@ -1,0 +1,106 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  margin: 0%;
+}
+
+.nome {
+  font-family: 'Black Ops One', cursive;
+  color: white;
+  position: absolute;
+  font-size: 15vh;
+  margin-left: 7vh;
+  margin-top: 2vh;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #242A41;
+}
+
+.disegni {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  position: absolute;
+  font-weight: lighter;
+  font-size: 4vh;
+  top: 7vh;
+  left: 17vw;
+}
+
+#rettangolo {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 4vh;
+  position: absolute;
+  top: 20%;
+  left: 6%;
+  width: 20vw;
+}
+
+#container {
+  margin-top: 5%;
+  margin-left: 35%;
+  width:740px;
+}
+
+#galleria {
+  position: absolute;
+  width: 20vw;
+  height: 40vh;
+  top: 45%;
+  left: 6%;
+}
+
+img{border:0}
+
+
+#zoom {
+  float:right;
+  margin:0 0 5px 0;
+  padding: 5px;
+  border:1px solid #ccc;
+
+  }
+
+#zoom h3{
+  margin:0;
+  font-size:100%;
+  color: #666;
+  text-align:center;
+  }
+
+#zoom img{
+  display:block;
+  max-width:550px;
+  }
+
+#bigimage {
+  border:1px solid #ccc;
+}
+
+#minipics {
+  margin-right:415px;
+  height: 40vh;
+  width: 25vw;
+  }
+#minipics ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0}
+
+#minipics li {
+  float:left;
+  margin:0 5px 5px 5px;
+  border:1px solid #ccc;
+  padding: 3px}
